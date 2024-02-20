@@ -24,8 +24,8 @@ export default function Home() {
                 <NavigationButton direction="right" onClick={() => changeSlide(1)}/>
             )}
             <div className="absolute inset-x-0 bottom-0 flex justify-center font-sans">
-                <a href={"https://joeriabbo.nl/"} className={"text-blue-500 hover:text-blue-700 underline"}>Joeri
-                    Abbo</a> © 2024 All Rights Reserved
+                <a href={"https://joeriabbo.nl/"} className={"text-blue-500 hover:text-blue-700 underline mr-2"}>Joeri
+                    Abbo </a>  © 2024 All Rights Reserved
             </div>
 
         </div>
