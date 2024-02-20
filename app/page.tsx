@@ -13,7 +13,7 @@ export default function Home() {
 
 
     return (
-        <div className={"font-sans h-screen"}>
+        <div className={"font-sans h-screen text-white"}>
             {/*@ts-ignore*/}
             <Slide slideData={slidesData[currentSlide]}/>
 
