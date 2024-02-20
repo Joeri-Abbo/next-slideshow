@@ -11,7 +11,6 @@ export default function Home() {
     };
 
     const buttonStyle = {
-        position: 'absolute',
         top: '50%',
         transform: 'translateY(-50%)',
         margin: '0 20px',
@@ -62,7 +61,7 @@ export default function Home() {
                         padding: "10px"
                     }}>
                         {slidesData[currentSlide].text_left && (
-                            <div dangerouslySetInnerHTML={{__html: slidesData[currentSlide].text_left}}>
+                            <div dangerouslySetInnerHTML={{__html: slidesData[currentSlide].text_left || ''}}>
                             </div>
                         )}
                         {slidesData[currentSlide].image_left && (
@@ -75,7 +74,7 @@ export default function Home() {
                         padding: "10px"
                     }}>
                         {slidesData[currentSlide].text_right && (
-                            <div dangerouslySetInnerHTML={{__html: slidesData[currentSlide].text_right}}>
+                            <div dangerouslySetInnerHTML={{__html: slidesData[currentSlide].text_right || ''}}>
                             </div>
                         )}
                         {slidesData[currentSlide].image_right && (
@@ -88,13 +87,13 @@ export default function Home() {
 
 
                 {currentSlide > 0 && (
-                    <button style={{...buttonStyle, left: 0}}
+                    <button style={{...buttonStyle, left: 0}} className={" absolute"}
                             onMouseOver={(e) => (e.currentTarget.style.backgroundColor = 'black')}
                             onMouseOut={(e) => (e.currentTarget.style.backgroundColor = 'transparent')}
                             onClick={() => changeSlide(-1)}>Prev</button>
                 )}
                 {currentSlide + 1 < slidesData.length && (
-                    <button style={{...buttonStyle, right: 0}}
+                    <button style={{...buttonStyle, right: 0}} className={" absolute"}
                             onMouseOver={(e) => (e.currentTarget.style.backgroundColor = 'white')}
                             onMouseOut={(e) => (e.currentTarget.style.backgroundColor = 'transparent')}
                             onClick={() => changeSlide(1)}>Next
