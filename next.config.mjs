@@ -2,16 +2,8 @@
 const nextConfig = {
     output: 'export',
     images: {
-        unoptimized: true,
-        remotePatterns: [
-            {
-                protocol: 'https',
-                hostname: 'source.unsplash.com',
-                port: '',
-                pathname: '/random/**',
-            },
-        ],
-    },
+        unoptimized: true
+    }
 };
 
 

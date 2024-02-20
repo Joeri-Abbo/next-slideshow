@@ -2,25 +2,25 @@
   {
     "title": "Per aliquam est tristique luctus himenaeos augue",
     "text_left": "Cubilia diam dictumst leo consectetur a pulvinar elit mus dapibus, vulputate per nascetur proin erat aliquet sem ad dictum, nunc accumsan dolor ultricies venenatis potenti ligula eget. Curabitur dapibus inceptos diam ante torquent eros venenatis dictumst arcu cras laoreet morbi lorem ex nullam, aenean fames tempus finibus ornare cubilia per ipsum tellus iaculis libero varius blandit. Vitae ligula eleifend lacus ipsum id conubia suspendisse nunc elit egestas scelerisque consectetur integer lectus, turpis eget luctus facilisis sem at tincidunt netus parturient consequat enim penatibus.  <br>This is the <strong>first</strong> slide.",
-    "image_left": "https://images.unsplash.com/photo-1519219788971-8d9797e0928e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=andrej-lisakov-3A4XZUopCJA-unsplash.jpg",
+    "image_left": "/bg.jpg",
     "text_right": "Cubilia diam dictumst leo consectetur a pulvinar elit mus dapibus, vulputate per nascetur proin erat aliquet sem ad dictum, nunc accumsan dolor ultricies venenatis potenti ligula eget. Curabitur dapibus inceptos diam ante torquent eros venenatis dictumst arcu cras laoreet morbi lorem ex nullam, aenean fames tempus finibus ornare cubilia per ipsum tellus iaculis libero varius blandit. Vitae ligula eleifend lacus ipsum id conubia suspendisse nunc elit egestas scelerisque consectetur integer lectus, turpis eget luctus facilisis sem at tincidunt netus parturient consequat enim penatibus.  <br>This is the <strong>first</strong> slide.",
-    "image_right": "https://images.unsplash.com/photo-1519219788971-8d9797e0928e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=andrej-lisakov-3A4XZUopCJA-unsplash.jpg",
-    "background_image": "https://images.unsplash.com/photo-1519219788971-8d9797e0928e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=andrej-lisakov-3A4XZUopCJA-unsplash.jpg"
+    "image_right": "/bg.jpg",
+    "background_image": "/bg.jpg"
   },
   {
     "title": "Slide 2",
     "text_left": "This is the <em>second</em> slide. Visit <a href='https://example.com'>Example</a>.",
-    "image_left": "https://images.unsplash.com/photo-1519219788971-8d9797e0928e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=andrej-lisakov-3A4XZUopCJA-unsplash.jpg",
+    "image_left": "/bg.jpg",
     "text_right": "This is the <em>second</em> slide. Visit <a href='https://example.com'>Example</a>.",
-    "image_right": "https://images.unsplash.com/photo-1519219788971-8d9797e0928e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=andrej-lisakov-3A4XZUopCJA-unsplash.jpg",
-    "background_image": "https://images.unsplash.com/photo-1519219788971-8d9797e0928e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=andrej-lisakov-3A4XZUopCJA-unsplash.jpg"
+    "image_right": "/bg.jpg",
+    "background_image": "/bg.jpg"
   },
   {
     "title": "Slide 2",
     "text_left": "This is the <em>second</em> slide. Visit <a href='https://example.com'>Example</a>.",
     "image_left": null,
     "text_right": null,
-    "image_right": "https://images.unsplash.com/photo-1519219788971-8d9797e0928e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=andrej-lisakov-3A4XZUopCJA-unsplash.jpg",
-    "background_image": "https://images.unsplash.com/photo-1519219788971-8d9797e0928e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=andrej-lisakov-3A4XZUopCJA-unsplash.jpg"
+    "image_right": "/bg.jpg",
+    "background_image": "/bg.jpg"
   }
 ]
