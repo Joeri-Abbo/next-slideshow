@@ -1,6 +1,11 @@
-// @ts-ignore
-const NavigationButton = ({direction, onClick}) => {
-    // Determine the position class based on the direction
+import React from 'react';
+
+type NavigationButtonProps = {
+    direction: 'left' | 'right';
+    onClick: () => void;
+};
+
+const NavigationButton: React.FC<NavigationButtonProps> = ({direction, onClick}) => {
     const positionClass = direction === 'left' ? "left-0" : "right-0";
 
     return (

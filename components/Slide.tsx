@@ -1,7 +1,20 @@
 import Image from 'next/image';
-// @ts-ignore
+import React from "react";
 
-const Slide = ({slideData}) => {
+type SlideData = {
+    background_image?: string;
+    title: string;
+    text_left?: string;
+    image_left?: string;
+    text_right?: string;
+    image_right?: string;
+};
+
+type SlideProps = {
+    slideData: SlideData;
+};
+
+const Slide: React.FC<SlideProps> = ({slideData}) => {
     return (
         <div
             className="font-sans bg-cover bg-center text-black flex flex-col justify-center items-center relative w-full h-full p-20 text-left"

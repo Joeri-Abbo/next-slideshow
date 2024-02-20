@@ -14,6 +14,7 @@ export default function Home() {
 
     return (
         <div className={"font-sans h-screen"}>
+            {/*@ts-ignore*/}
             <Slide slideData={slidesData[currentSlide]}/>
 
             {currentSlide > 0 && (
