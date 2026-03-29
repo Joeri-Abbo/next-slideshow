@@ -1,6 +1,6 @@
 name: Create issues from todos
-true:
-  workflow_call: null
+on:
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
